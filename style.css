@@ -1,0 +1,53 @@
+body {
+    background-image: url("kermit.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: #ff0505;
+    font-family: 'Bangers', cursive;
+    color: black;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Monoton', cursive;
+}
+
+#nav li {
+    float:left;
+}
+
+#nav li a{
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: #ff0000;
+}
+
+#content {
+    border: solid black 2px;
+    margin-top: 16px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: rgba(255,255,255,0);
+}
+table {
+    margin: auto;
+}
+#content ul, #content ol {
+    margin: auto;
+    width:22%;
+    text-align: left;
+}
